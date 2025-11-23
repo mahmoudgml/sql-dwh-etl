@@ -46,24 +46,24 @@ The DWH is designed using a 3-layered approach:
 
 ## Architecture
 
-`Docs/Arch.png`
+![Architecture](Docs/Arch.png)
 
 ---
 ## Data Flow
 
-`Docs/data_flow.png`
+![Data Flow](Docs/data_flow.png)
 
 ---
 ## Data Model
 
-`Docs/data_model.png`
+![Data Model](Docs/data_model.png)
 
 ---
 ## Dashboards
 
 Here is an example dashboard created using the Gold Layer:
 
-`Docs/Dash.png`
+![Dashboard](Docs/Dash.png)
 
 Includes KPIs such as:
 - Sales metrics  
