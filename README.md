@@ -2,12 +2,7 @@
 
 
 
-This repository contains a full **Data Warehouse (DWH) project** built with **SQL Server**  
-following the **Bronze → Silver → Gold** layered architecture.
-
-The project demonstrates how raw data from **CRM and ERP systems** can be ingested,  
-cleaned, standardized, and transformed into **business-ready data models** for analytics &  
-reporting.
+This repository contains a modern end-to-end  Data Warehouse (DWH) project built with SQL Server following the Bronze → Silver → Gold layered architecture. It demonstrates how raw CRM and ERP data is ingested, cleaned, standardized, and transformed into business-ready analytical models for reporting and BI use cases.
 
 ---
 
@@ -103,36 +98,28 @@ Includes KPIs such as:
 ---
 ## How to Run
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/mahmoudgml/sql-dwh-etl.git
 ````
 
-### 2. Set up SQL Server
+2. Set up SQL Server
 
-Create a database for the DWH layers.
+   Create a database for the DWH layers.
 
-### 3. Execute ETL scripts in order
+3. Execute ETL scripts in order
 
-1. Bronze Layer
-2. Silver Layer
-3. Gold Layer
+   Bronze Layer → Silver Layer → Gold Layer.
 
-### 4. Load source CSV files
+4. Load source CSV files
 
-Import all files from the `Source Data` folder into their corresponding Bronze tables.
+   Import all files from the `Source Data` folder into their corresponding Bronze tables.
 
-### 5. Build the business model
+5. Run the queries in `Gold_Views.sql` to generate Fact & Dimension tables.
 
-Run:
+6. Connect BI tools
 
-```
-SQL Scripts/Gold Layer/Gold_Views.sql
-```
-
-### 6. Connect BI tools
-
-Use Power BI or Tableau to connect to Gold Layer views and build dashboards.
+   Use Power BI or Tableau to connect to Gold Layer views and build dashboards.
 
 ---
 ## Contact
@@ -142,6 +129,3 @@ Use Power BI or Tableau to connect to Gold Layer views and build dashboards.
 
 * **Email:**
   [mahmoud23456123@gmail.com](mailto:mahmoud23456123@gmail.com)
-
-```
-
