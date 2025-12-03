@@ -119,7 +119,7 @@ git clone https://github.com/mahmoudgml/sql-dwh-etl.git
 
 6. Connect BI tools
 
-   Use Power BI or Tableau to connect to Gold Layer views and build dashboards.
+   Use Power BI to connect to Gold Layer views and build dashboards.
 
 ---
 ## Contact
